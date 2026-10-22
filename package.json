@@ -1,0 +1,13 @@
+{
+  "name": "ci-cd-docker-project",
+  "version": "1.0.0",
+  "description": "CI/CD pipeline using GitHub Actions and Docker",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node --test",
+    "verify" : "npm test"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
